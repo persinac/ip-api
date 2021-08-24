@@ -1,0 +1,8 @@
+# base files
+node_modules
+dist
+output
+/config
+SQL
+.idea
+*.env
