@@ -2522,18 +2522,28 @@
         "affectsGlobalScope": false
       },
       "./server/app/entities/interview.ts": {
-        "version": "70c460d931f2a9b1009723d86cf2f95690c6558d43f8e20068638c01a06fb117",
+        "version": "8a1fe68032cfed13d396673447a662fef46ffb8b587a4b1b1b3670e7147b9ca9",
         "signature": "e413c1826126d360b059a4e15e25bb1ca77059ddded1d7e73102e971b411150c",
         "affectsGlobalScope": false
       },
-      "./server/app/entities/orderdetail.ts": {
-        "version": "1482150fd41bf10cf222827467a87a0190baa2b742c6c01ef7b75f42881aec7e",
-        "signature": "98f4c83684a46deb620014aeeba8c0ed118d7a920dcecec2a4afb15a05c66e3d",
+      "./server/app/entities/interviewdetail.ts": {
+        "version": "803659892e59b185b6f29b9f19f185c1c0481a22b0fdc3f31fdc86944b6867e3",
+        "signature": "8d7b9e1cfc678074168bf3f73aeb1a7112c20311f100a8d5140bb66e354f47a9",
         "affectsGlobalScope": false
       },
-      "./server/app/middleware/objectutilities/interviewutility.ts": {
-        "version": "2fd74f2414fbf87ea92d6b6a372c719374692f4161a02006f8ad0763b6a34966",
-        "signature": "128dc43e9a8e6a0ee6264d7d32038cbd63d90ae3f1b1d923200f9c85530aa434",
+      "./server/app/entities/interviewnote.ts": {
+        "version": "5f2e8aa38481f4cdbb25e24f89f2a8d11b5abbeee219ebc9fcd33fbf4ebd39ac",
+        "signature": "47347a7268dbe4577e215c709a9875740c533af4d16071699379a49b4815d1bd",
+        "affectsGlobalScope": false
+      },
+      "./server/app/entities/practiceproblem.ts": {
+        "version": "f10817c6dac27f767ad796501c678bf39183ab909cdfd2cc506c58712f886cf8",
+        "signature": "05a03ccae82120999a4d8a433310437231aac8c51941655231700f4f06097ff0",
+        "affectsGlobalScope": false
+      },
+      "./server/app/middleware/objectutilities/auditutility.ts": {
+        "version": "e14dc0f577f9b373914ba6944a63137f81b3c61395caddf0f437553c95ebdf45",
+        "signature": "76ed8a7d77fb34b12750adf7f5cc0688733a69f6751baab445f67a8025924b06",
         "affectsGlobalScope": false
       },
       "./server/app/exceptions/companypriority/companyprioritynotfoundexception.ts": {
@@ -2542,12 +2552,12 @@
         "affectsGlobalScope": false
       },
       "./server/app/controller/interview.ts": {
-        "version": "7b3c005743c38ec9979762e88379683258169d1a25e4b3c324f129c55e8089ba",
+        "version": "51d5be33dc7ef7762e3f7bc06ce247d110d6fc857ce918adc2f2cd03a0ad6241",
         "signature": "086d569242efc1c3a103233dda0998da9a7fad7fc1d438723cd005f6a9338d65",
         "affectsGlobalScope": false
       },
       "./server/app/entities/companypriority.ts": {
-        "version": "5d5355ced7801cd19ddac86bc15fd48c21d224b1ed517cf409fbd3f8c5575b17",
+        "version": "43f82fe94a81d2dde497ee9f6e3d3722d240e4469f58a7d5bb79f40442cf0d12",
         "signature": "97ca56f9a32b5dd012a1159a315ef3d820c7eb74e1575552dd41056376480a8a",
         "affectsGlobalScope": false
       },
@@ -2566,79 +2576,29 @@
         "signature": "70137c19faa4e0fce1b55af053c88663babab9e39edf1f7f67568107fc6c1087",
         "affectsGlobalScope": false
       },
-      "./server/app/middleware/objectutilities/orderdetailutility.ts": {
-        "version": "d9c2dd597d00d410c25080ad06634de15f4c70c6771cfb7c7ea6fcc9b3572cbf",
-        "signature": "35fef7d24969ab27c30894fa3cdc96a7c16bb514d96603a1c1ce593a9a6b1e17",
-        "affectsGlobalScope": false
-      },
-      "./server/app/structure/icompanypriorityresp.ts": {
-        "version": "d1aee65f1e2b530be98ecb379200e54f2e9b321effdd6140e3c6d24468b1a8e4",
-        "signature": "541d0f150e61efe9fb8e805c9c66e33b085b8a6be57bfaeb8dee7cf54204da8e",
-        "affectsGlobalScope": false
-      },
       "./server/app/exceptions/orderdetail/orderdetailnotfoundexception.ts": {
         "version": "83d7bebb44d75706e0f97d76fe3763999fbc3593f65f2f0e83f939b5ae1d38c3",
         "signature": "92372417449681c92f451dc0ccd19016cbec38e8abeea8d378964fd2ee1104a6",
         "affectsGlobalScope": false
       },
-      "./server/app/controller/orderdetails.ts": {
-        "version": "2059b89d3d8df971dca5fd07f2318533884dea6814f20281fbfd9d4067820b5c",
-        "signature": "c7b2d60cf19e6b4e0fcb7cc33dc80b8edf15dfe783add865dcfd303f8ddc45ee",
-        "affectsGlobalScope": false
-      },
-      "./server/app/entities/ordernotes.ts": {
-        "version": "12d4fa897e97ba6634e8eeb45335915b6bd5684e49ae117ad73ebe518c752344",
-        "signature": "f19913501de1ff9ab394fb5a31616d690059620866d003182d2e21011f1bf88d",
-        "affectsGlobalScope": false
-      },
-      "./server/app/exceptions/ordernote/notenotfoundexception.ts": {
-        "version": "1c9f17a83009cf10e6c01082114f95e25773ac04f43db02e0de1d9d45e8c7ec0",
-        "signature": "f0dadc660b98a8dd17c33ed33ef271810d81408fff172eec63c3b600805a7e21",
-        "affectsGlobalScope": false
-      },
-      "./server/app/exceptions/ordernote/cannotfindordernoteswithorderexception.ts": {
-        "version": "96aaeb080c405b7df30f426285f207ee88f4c9a9f8c6cf34bce5f2dec3239531",
-        "signature": "e32683dec07c31375d072f1db3a00d4f4666fdcf4264cb4305e8879f212acde1",
-        "affectsGlobalScope": false
-      },
-      "./server/app/exceptions/ordernote/cannotcreateordernoteexception.ts": {
-        "version": "55875af7ab7c414fd693b2d2e541d011e779800a1424c8ba76fc2177f818aaef",
-        "signature": "0f8f2f98a06f17c4d85e4ebc5748c364b2678decff4d965b91071f6f9c29e8e8",
-        "affectsGlobalScope": false
-      },
-      "./server/app/controller/ordernotes.ts": {
-        "version": "0298c981227106c34bca53638856bd8db9fbd2bb17403a9d208fae323ffc1566",
-        "signature": "85b7d9016404deccd271d919ee7f6d3d4b136f039e9e2d75ee3540d5f0728989",
-        "affectsGlobalScope": false
-      },
-      "./server/app/structure/symbol.ts": {
-        "version": "51c6f5797d4ca7f56a4baaae5437acc5f29601f7b8f3e8da99f346829a66f723",
-        "signature": "db294091fd33940bce6d1cb11cddba9b9b7a63e90a500d50bc011eeb022e5124",
-        "affectsGlobalScope": false
-      },
-      "./server/app/controller/symbols.ts": {
-        "version": "da0bfa48bbe560a6b68a78af751231e7cdfd176491c2746dfb25751e5876338a",
-        "signature": "4c9ee4e4c1977892bee77179ec584be4809555d79b03b2169fe94fc24c8a1b02",
-        "affectsGlobalScope": false
-      },
-      "./server/app/entities/interviewdetail.ts": {
-        "version": "52629edf296359824f45fd69cb39e6272b66a7d1ca0a6ea84f773660fe1898c1",
-        "signature": "8d7b9e1cfc678074168bf3f73aeb1a7112c20311f100a8d5140bb66e354f47a9",
-        "affectsGlobalScope": false
-      },
       "./server/app/controller/interviewdetails.ts": {
-        "version": "600e6545b09fbe7fd8640ad2dcba994a51f3991bc72bad57784cec35a46f3a45",
-        "signature": "e9eb98ecec60d48911e79e78f38590b681f9569417f9c8ffb87874efeb22fb88",
+        "version": "f6f814db938da0f9742365f065cdacc8e0001a02e9c52b7cbfdc8c32a55871aa",
+        "signature": "413665b628fccbb7ca601f217ac97ac292824719e2a513b5fbd7c97b14cf916a",
+        "affectsGlobalScope": false
+      },
+      "./server/app/controller/interviewnotes.ts": {
+        "version": "62733f035a6477b973a7fcb2218d48b34bae4ec8acccc6632590893531a796a0",
+        "signature": "9d1c8ef4a858415fb0df6c267058fc0a0e031942a648d48f5426d7c504bbdffe",
+        "affectsGlobalScope": false
+      },
+      "./server/app/controller/practiceproblems.ts": {
+        "version": "5307921159eb20f0a40ea830b443372d290183b2c57a2de00054cd8d76fb63f0",
+        "signature": "f62399cf76da4d0b5a095bd934f89fcc93e2a0960fb3f8ea9068c77a9b7aa79a",
         "affectsGlobalScope": false
       },
       "./server/server.ts": {
-        "version": "4f003b3af3d3e95243e5fcf35d48ad9bf345031c6d57d5a4d8449ca71420c9d1",
+        "version": "a0a1c8f24a704f0af013b35959102909a5655fd273b394c601d0ba064ec2b1c2",
         "signature": "3b3cbe89219f5c7208870ae9336c27c597cc0148fa7858e25ee8561172abbec9",
-        "affectsGlobalScope": false
-      },
-      "./server/app/entities/interviewnote.ts": {
-        "version": "7d50f2c94a9f157353d90039d9a581d92c6fa211cfadfc94892f4d314fb18acd",
-        "signature": "47347a7268dbe4577e215c709a9875740c533af4d16071699379a49b4815d1bd",
         "affectsGlobalScope": false
       },
       "./server/app/exceptions/companypriority/cannotcreateorderexception.ts": {
@@ -2651,9 +2611,19 @@
         "signature": "947d8fdf46631e407269dbb0ee6fca4691736e8f6f69997a0a20d80472f271db",
         "affectsGlobalScope": false
       },
-      "./server/app/middleware/objectutilities/orderutility.ts": {
-        "version": "d61194951771f0124cd79d6f8207c53bd97b0bd7c8b45f21d6976ce7af6aaae1",
-        "signature": "15e7eae32bab243f3bf5ef68698880c709fcb5bbdc6999f12ed1eda1e02fd2a6",
+      "./server/app/exceptions/ordernote/cannotcreateordernoteexception.ts": {
+        "version": "55875af7ab7c414fd693b2d2e541d011e779800a1424c8ba76fc2177f818aaef",
+        "signature": "0f8f2f98a06f17c4d85e4ebc5748c364b2678decff4d965b91071f6f9c29e8e8",
+        "affectsGlobalScope": false
+      },
+      "./server/app/exceptions/ordernote/cannotfindordernoteswithorderexception.ts": {
+        "version": "96aaeb080c405b7df30f426285f207ee88f4c9a9f8c6cf34bce5f2dec3239531",
+        "signature": "e32683dec07c31375d072f1db3a00d4f4666fdcf4264cb4305e8879f212acde1",
+        "affectsGlobalScope": false
+      },
+      "./server/app/exceptions/ordernote/notenotfoundexception.ts": {
+        "version": "1c9f17a83009cf10e6c01082114f95e25773ac04f43db02e0de1d9d45e8c7ec0",
+        "signature": "f0dadc660b98a8dd17c33ed33ef271810d81408fff172eec63c3b600805a7e21",
         "affectsGlobalScope": false
       },
       "./server/app/middleware/validations/nonrequestordernotesvalidation.ts": {
@@ -2661,14 +2631,9 @@
         "signature": "c3cf587a0352429b4e92bed6e8cf2268cf19b2fc930bf2fbb32932c220d584ec",
         "affectsGlobalScope": false
       },
-      "./server/app/structure/orderdetails.ts": {
-        "version": "9ff8e7f606aa92fa4b21391c2e7fdbf56ed0f1a3183d05d33632c68400baa7b4",
-        "signature": "29a44c5ffe7180bdb8fc3ff07a435b3a2673fdd624380d12e26305e4c0a904cf",
-        "affectsGlobalScope": false
-      },
-      "./server/app/structure/ordernotes.ts": {
-        "version": "dad3fffb19988c498e7c74b8c83303e3ef6221f132ac69619b8ae53e91ed6030",
-        "signature": "d811e169cb1c66db6c17affa458b7e697ef583695d8c403f4b0bbc32888ba0e7",
+      "./server/app/structure/icompanypriorityresp.ts": {
+        "version": "d1aee65f1e2b530be98ecb379200e54f2e9b321effdd6140e3c6d24468b1a8e4",
+        "signature": "541d0f150e61efe9fb8e805c9c66e33b085b8a6be57bfaeb8dee7cf54204da8e",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/caseless/index.d.ts": {
@@ -6954,7 +6919,7 @@
         "./server/app/exceptions/httpexception.ts",
         "./server/app/exceptions/orderdetail/cannotcreateorderdetailexception.ts",
         "./server/app/exceptions/orderdetail/cannotfindorderdetailswithorderexception.ts",
-        "./server/app/middleware/objectutilities/interviewutility.ts",
+        "./server/app/middleware/objectutilities/auditutility.ts",
         "./server/app/middleware/validations/nonrequestorderdetailvalidation.ts"
       ],
       "./server/app/controller/interviewdetails.ts": [
@@ -6963,29 +6928,19 @@
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
-        "./node_modules/typeorm/index.d.ts",
-        "./server/app/entities/interviewdetail.ts",
-        "./server/app/exceptions/httpexception.ts",
-        "./server/app/exceptions/orderdetail/cannotfindorderdetailswithorderexception.ts"
-      ],
-      "./server/app/controller/orderdetails.ts": [
-        "./node_modules/@types/express/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts",
         "./node_modules/class-validator/types/index.d.ts",
         "./node_modules/typeorm/index.d.ts",
-        "./server/app/entities/orderdetail.ts",
+        "./server/app/entities/interview.ts",
+        "./server/app/entities/interviewdetail.ts",
+        "./server/app/exceptions/companypriority/companyprioritynotfoundexception.ts",
         "./server/app/exceptions/httpexception.ts",
         "./server/app/exceptions/orderdetail/cannotcreateorderdetailexception.ts",
         "./server/app/exceptions/orderdetail/cannotfindorderdetailswithorderexception.ts",
         "./server/app/exceptions/orderdetail/orderdetailnotfoundexception.ts",
-        "./server/app/middleware/objectutilities/orderdetailutility.ts",
-        "./server/app/middleware/validations/nonrequestorderdetailvalidation.ts",
-        "./server/app/structure/icompanypriorityresp.ts"
+        "./server/app/middleware/objectutilities/auditutility.ts",
+        "./server/app/middleware/validations/nonrequestorderdetailvalidation.ts"
       ],
-      "./server/app/controller/ordernotes.ts": [
+      "./server/app/controller/interviewnotes.ts": [
         "./node_modules/@types/express/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
@@ -6993,22 +6948,31 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/class-validator/types/index.d.ts",
         "./node_modules/typeorm/index.d.ts",
-        "./server/app/entities/ordernotes.ts",
+        "./server/app/entities/interviewnote.ts",
+        "./server/app/exceptions/companypriority/companyprioritynotfoundexception.ts",
         "./server/app/exceptions/httpexception.ts",
         "./server/app/exceptions/orderdetail/cannotcreateorderdetailexception.ts",
-        "./server/app/exceptions/ordernote/cannotcreateordernoteexception.ts",
-        "./server/app/exceptions/ordernote/cannotfindordernoteswithorderexception.ts",
-        "./server/app/exceptions/ordernote/notenotfoundexception.ts",
-        "./server/app/middleware/validations/nonrequestorderdetailvalidation.ts",
-        "./server/app/structure/icompanypriorityresp.ts"
+        "./server/app/exceptions/orderdetail/cannotfindorderdetailswithorderexception.ts",
+        "./server/app/exceptions/orderdetail/orderdetailnotfoundexception.ts",
+        "./server/app/middleware/objectutilities/auditutility.ts",
+        "./server/app/middleware/validations/nonrequestorderdetailvalidation.ts"
       ],
-      "./server/app/controller/symbols.ts": [
+      "./server/app/controller/practiceproblems.ts": [
         "./node_modules/@types/express/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
-        "./server/app/structure/symbol.ts"
+        "./node_modules/class-validator/types/index.d.ts",
+        "./node_modules/typeorm/index.d.ts",
+        "./server/app/entities/practiceproblem.ts",
+        "./server/app/exceptions/companypriority/companyprioritynotfoundexception.ts",
+        "./server/app/exceptions/httpexception.ts",
+        "./server/app/exceptions/orderdetail/cannotcreateorderdetailexception.ts",
+        "./server/app/exceptions/orderdetail/cannotfindorderdetailswithorderexception.ts",
+        "./server/app/exceptions/orderdetail/orderdetailnotfoundexception.ts",
+        "./server/app/middleware/objectutilities/auditutility.ts",
+        "./server/app/middleware/validations/nonrequestorderdetailvalidation.ts"
       ],
       "./server/app/entities/companypriority.ts": [
         "./node_modules/@types/node/fs.d.ts",
@@ -7044,15 +7008,7 @@
         "./node_modules/typeorm/index.d.ts",
         "./server/app/entities/interviewdetail.ts"
       ],
-      "./server/app/entities/orderdetail.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/class-validator/types/index.d.ts",
-        "./node_modules/typeorm/index.d.ts"
-      ],
-      "./server/app/entities/ordernotes.ts": [
+      "./server/app/entities/practiceproblem.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -7129,26 +7085,15 @@
         "./node_modules/@types/node/util.d.ts",
         "./server/app/exceptions/httpexception.ts"
       ],
-      "./server/app/middleware/objectutilities/interviewutility.ts": [
+      "./server/app/middleware/objectutilities/auditutility.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./server/app/entities/interview.ts",
-        "./server/app/entities/orderdetail.ts"
-      ],
-      "./server/app/middleware/objectutilities/orderdetailutility.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./server/app/entities/orderdetail.ts"
-      ],
-      "./server/app/middleware/objectutilities/orderutility.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts"
+        "./server/app/entities/interviewdetail.ts",
+        "./server/app/entities/interviewnote.ts",
+        "./server/app/entities/practiceproblem.ts"
       ],
       "./server/app/middleware/validations/companypriorityvalidation.ts": [
         "./node_modules/@types/express/index.d.ts",
@@ -7189,24 +7134,6 @@
         "./node_modules/@types/node/util.d.ts",
         "./server/app/structure/icompanypriority.ts"
       ],
-      "./server/app/structure/orderdetails.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts"
-      ],
-      "./server/app/structure/ordernotes.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts"
-      ],
-      "./server/app/structure/symbol.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts"
-      ],
       "./server/ormconfig.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
@@ -7225,9 +7152,8 @@
         "./server/app/controller/companypriority.ts",
         "./server/app/controller/interview.ts",
         "./server/app/controller/interviewdetails.ts",
-        "./server/app/controller/orderdetails.ts",
-        "./server/app/controller/ordernotes.ts",
-        "./server/app/controller/symbols.ts",
+        "./server/app/controller/interviewnotes.ts",
+        "./server/app/controller/practiceproblems.ts",
         "./server/ormconfig.ts"
       ]
     },
@@ -11425,15 +11351,10 @@
       "./server/app/controller/interviewdetails.ts": [
         "./node_modules/@types/express-serve-static-core/index.d.ts"
       ],
-      "./server/app/controller/orderdetails.ts": [
+      "./server/app/controller/interviewnotes.ts": [
         "./node_modules/@types/express-serve-static-core/index.d.ts"
       ],
-      "./server/app/controller/ordernotes.ts": [
-        "./node_modules/@types/express-serve-static-core/index.d.ts",
-        "./server/app/entities/ordernotes.ts",
-        "./server/app/structure/icompanypriorityresp.ts"
-      ],
-      "./server/app/controller/symbols.ts": [
+      "./server/app/controller/practiceproblems.ts": [
         "./node_modules/@types/express-serve-static-core/index.d.ts"
       ],
       "./server/app/entities/interviewdetail.ts": [
@@ -11469,11 +11390,11 @@
       "./server/app/exceptions/ordernote/notenotfoundexception.ts": [
         "./server/app/exceptions/httpexception.ts"
       ],
-      "./server/app/middleware/objectutilities/interviewutility.ts": [
-        "./server/app/entities/interview.ts"
-      ],
-      "./server/app/middleware/objectutilities/orderdetailutility.ts": [
-        "./server/app/entities/orderdetail.ts"
+      "./server/app/middleware/objectutilities/auditutility.ts": [
+        "./server/app/entities/interview.ts",
+        "./server/app/entities/interviewdetail.ts",
+        "./server/app/entities/interviewnote.ts",
+        "./server/app/entities/practiceproblem.ts"
       ],
       "./server/app/middleware/validations/companypriorityvalidation.ts": [
         "./node_modules/@types/express/index.d.ts"
@@ -12005,15 +11926,13 @@
       "./server/app/controller/companypriority.ts",
       "./server/app/controller/interview.ts",
       "./server/app/controller/interviewdetails.ts",
-      "./server/app/controller/orderdetails.ts",
-      "./server/app/controller/ordernotes.ts",
-      "./server/app/controller/symbols.ts",
+      "./server/app/controller/interviewnotes.ts",
+      "./server/app/controller/practiceproblems.ts",
       "./server/app/entities/companypriority.ts",
       "./server/app/entities/interview.ts",
       "./server/app/entities/interviewdetail.ts",
       "./server/app/entities/interviewnote.ts",
-      "./server/app/entities/orderdetail.ts",
-      "./server/app/entities/ordernotes.ts",
+      "./server/app/entities/practiceproblem.ts",
       "./server/app/exceptions/companypriority/cannotcreateorderexception.ts",
       "./server/app/exceptions/companypriority/cannotupdateorderexception.ts",
       "./server/app/exceptions/companypriority/companyprioritynotfoundexception.ts",
@@ -12024,17 +11943,12 @@
       "./server/app/exceptions/ordernote/cannotcreateordernoteexception.ts",
       "./server/app/exceptions/ordernote/cannotfindordernoteswithorderexception.ts",
       "./server/app/exceptions/ordernote/notenotfoundexception.ts",
-      "./server/app/middleware/objectutilities/interviewutility.ts",
-      "./server/app/middleware/objectutilities/orderdetailutility.ts",
-      "./server/app/middleware/objectutilities/orderutility.ts",
+      "./server/app/middleware/objectutilities/auditutility.ts",
       "./server/app/middleware/validations/companypriorityvalidation.ts",
       "./server/app/middleware/validations/nonrequestorderdetailvalidation.ts",
       "./server/app/middleware/validations/nonrequestordernotesvalidation.ts",
       "./server/app/structure/icompanypriority.ts",
       "./server/app/structure/icompanypriorityresp.ts",
-      "./server/app/structure/orderdetails.ts",
-      "./server/app/structure/ordernotes.ts",
-      "./server/app/structure/symbol.ts",
       "./server/ormconfig.ts",
       "./server/server.ts"
     ]

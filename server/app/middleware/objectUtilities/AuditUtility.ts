@@ -28,7 +28,7 @@ export class AuditUtility {
         return problem;
     }
 
-    public static setAuditValues(obj: Interview | InterviewDetail | InterviewNote | PracticeProblem): Interview | InterviewDetail | InterviewNote | PracticeProblem{
+    public static setAuditValues(obj: Interview | InterviewDetail | InterviewNote | PracticeProblem): Interview | InterviewDetail | InterviewNote | PracticeProblem {
         obj.createdDatetime = obj.createdDatetime || new Date();
         obj.modifiedDatetime = obj.createdDatetime || new Date();
         obj.createdBy = obj.createdBy || "SYSTEM";
