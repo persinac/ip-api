@@ -3,7 +3,8 @@ import * as bodyParser from "body-parser";
 import cors, { CorsOptions } from "cors";
 
 const originsWhitelist = [
-    "http://localhost:3000",      // this is my front-end url for development
+    "http://localhost:3000",      // this is my front-end url for production on local
+    "http://localhost:8080",      // this is my front-end url for development - hot deploy
     "http://www.myproductionurl.com"
 ];
 const corsOptions: CorsOptions = {
