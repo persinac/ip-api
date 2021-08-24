@@ -5,7 +5,8 @@ import cors, { CorsOptions } from "cors";
 const originsWhitelist = [
     "http://localhost:3000",      // this is my front-end url for production on local
     "http://localhost:8080",      // this is my front-end url for development - hot deploy
-    "http://www.myproductionurl.com"
+    "http://www.myproductionurl.com",
+    "https://ip-react-afi4n.ondigitalocean.app"
 ];
 const corsOptions: CorsOptions = {
     origin: function(origin, callback) {
